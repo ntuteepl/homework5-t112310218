@@ -11,7 +11,7 @@ int main()
     output = input * 0.9;
 
     if(input >= 1500){
-        output *= 0.75;
+        output *= 0.79;
     }else if(input >= 800){
         output *= 0.9;
     }
@@ -19,4 +19,3 @@ int main()
     printf("%.1f", output);
     return 0;
 }
-
